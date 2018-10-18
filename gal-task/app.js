@@ -88,7 +88,7 @@ app.delete("/api/assets", (req, res) => {
 app.post("/api/assets", (req, res) => {
 
     let assetsArr = JSON.parse(fs.readFileSync("./assets.json"));
-    let newAsset = new Asset.AssestsClassPointer();
+    let newAsset = new Asset.AssetsClassPointer();
 
     try {
         for (key in req.body) {

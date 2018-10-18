@@ -84,7 +84,7 @@ C:\Users\norel>curl -v -X PUT -H "Content-type: application/json" -d  "{\"id\": 
 < Date: Thu, 18 Oct 2018 08:25:15 GMT
 < Connection: keep-alive
 <
- ID number : 2 is edited in the file to 200 * Connection #0 to host localhost left intact
+ ID number : 2 is edited in the file to id number : 1 * Connection #0 to host localhost left intact
  ```
 
  DELETE request :

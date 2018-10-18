@@ -36,7 +36,7 @@ Note: Unnecessary use of -X or --request, POST is already inferred.
 < Date: Thu, 18 Oct 2018 08:23:20 GMT
 < Connection: keep-alive
 <
-New Asset addedd to the file* Connection #0 to host localhost left intact
+New Asset added to the file* Connection #0 to host localhost left intact
 ```
 
 GET request :

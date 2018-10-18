@@ -8,9 +8,9 @@
 ולידציות בהתאם, כלל השדות מנדטוריים
 ```
 CURL requests
-curl -v -X POST -H "Content-type: application/json" -d  "{\"id\": 1,\"property_type\": \"house\",\"beds\": 6,\"location\": \"israel Beit aryeh hzit 751\",\"price\": 200}" localhost:4500/api/assets
-curl -X GET -v localhost:4500/api/assets
-curl -v -X DELETE localhost:4500/api/assets?id=1
+**curl -v -X POST -H "Content-type: application/json" -d  "{\"id\": 1,\"property_type\": \"house\",\"beds\": 6,\"location\": \"israel Beit aryeh hzit 751\",\"price\": 200}" localhost:4500/api/assets<br/>
+curl -X GET -v localhost:4500/api/assets<br/>
+curl -v -X DELETE localhost:4500/api/assets?id=1<br/>
 curl -v -X PUT -H "Content-type: application/json" -d  "{\"id\": 1,\"property_type\": \"house\",\"beds\": 8,\"location\": \"Los angeles Beit aryeh hzit 751\",\"price\": 200}" localhost:4500/api/assets?id=2
 
 **POST request

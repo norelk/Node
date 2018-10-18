@@ -13,7 +13,7 @@ curl -X GET -v localhost:4500/api/assets<br/>
 curl -v -X DELETE localhost:4500/api/assets?id=1<br/>
 curl -v -X PUT -H "Content-type: application/json" -d  "{\"id\": 1,\"property_type\": \"house\",\"beds\": 8,\"location\": \"Los angeles Beit aryeh hzit 751\",\"price\": 200}" localhost:4500/api/assets?id=2
 
-POST request
+POST request :
 ```
 C:\Users\norel>curl -v -X POST -H "Content-type: application/json" -d  "{\"id\": 1,\"property_type\": \"house\",\"beds\": 6,\"location\": \"israel Beit aryeh hzit 751\",\"price\": 200}" localhost:4500/api/assets
 Note: Unnecessary use of -X or --request, POST is already inferred.
@@ -39,7 +39,7 @@ Note: Unnecessary use of -X or --request, POST is already inferred.
 New Asset addedd to the file* Connection #0 to host localhost left intact
 ```
 
-GET request
+GET request :
 ```
 C:\Users\norel>curl -X GET -v localhost:4500/api/assets
 Note: Unnecessary use of -X or --request, GET is already inferred.
@@ -62,7 +62,7 @@ Note: Unnecessary use of -X or --request, GET is already inferred.
 [{"_id":1,"_property_type":"house","_beds":8,"_location":"Los angeles Beit aryeh hzit 751","_price":2022220,"id":1,"property_type":"house","beds":8,"location":"Los angeles Beit aryeh hzit 751","price":202223320},{"_id":1,"_property_type":"house","_beds":6,"_location":"israel Beit aryeh hzit 751","_price":1},{"_id":2,"_property_type":"house","_beds":6,"_location":"israel Beit aryeh hzit 751","_price":300},{"_id":2,"_property_type":"house","_beds":6,"_location":"israel Beit aryeh hzit 751","_price":300},{"_id":2,"_property_type":"house","_beds":6,"_location":"israel Beit aryeh hzit 751","_price":1232131232300},{"_id":1,"_property_type":"house","_beds":6,"_location":"israel Beit aryeh hzit 751","_price":200}]* Connection #0 to host localhost left intact
 ```
 
- PUT request 
+ PUT request :
 ```
 C:\Users\norel>curl -v -X PUT -H "Content-type: application/json" -d  "{\"id\": 1,\"property_type\": \"house\",\"beds\": 8,\"location\": \"Los angeles Beit aryeh hzit 751\",\"price\": 200}" localhost:4500/api/assets?id=2
 *   Trying ::1...
@@ -87,7 +87,7 @@ C:\Users\norel>curl -v -X PUT -H "Content-type: application/json" -d  "{\"id\": 
  ID number : 2 is edited in the file to 200 * Connection #0 to host localhost left intact
  ```
 
- DELETE request
+ DELETE request :
  ```
 C:\Users\norel>curl -v -X DELETE localhost:4500/api/assets?id=1
 *   Trying ::1...

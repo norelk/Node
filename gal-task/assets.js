@@ -89,5 +89,5 @@ class Asset {
 
 }
 module.exports = {
-    "AssestsClassPointer": Asset
+    "AssetsClassPointer": Asset
 };
